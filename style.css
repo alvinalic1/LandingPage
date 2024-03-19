@@ -19,5 +19,28 @@ a{
 }
 li{
     text-decoration: none;
-    
+
 }
+
+
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B6F1B;
+}
+
+#title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#text{
+    margin-top: 0px;
+    padding: 0;
+   
+}
+
+
