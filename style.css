@@ -1,7 +1,11 @@
-
+body{
+    margin: 0 auto;
+}
 
 .header{
-    background-color: #1B6F1B;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
 }
@@ -11,15 +15,15 @@ ul{
     justify-content: space-around;
     gap: 40px;
     list-style-type: none;
+    
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: #e5e7eb
 }
 li{
     text-decoration: none;
-
 }
 
 
@@ -28,19 +32,22 @@ li{
 .main{
     display: flex;
     justify-content: space-around;
-    background-color: #1B6F1B;
+    background-color: #1F2937;
+    flex-wrap: wrap;
 }
 
 #title{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 0px;
 }
 
 #text{
-    margin-top: 0px;
-    padding: 0;
-   
+    font-size: 18px;
+    color: #e5e7eb
 }
+
+
 
 
