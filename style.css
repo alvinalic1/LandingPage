@@ -1,0 +1,11 @@
+.header{
+    background-color: #1B6F1B;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
