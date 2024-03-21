@@ -38,6 +38,8 @@ li{
     justify-content: space-around;
     background-color: #1F2937;
     flex-wrap: wrap;
+    padding-left: 55px;
+    padding-right: 50px;
 }
 
 #title{
@@ -60,5 +62,33 @@ button{
 }
 
 
+
+
+.randInfo{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.images-text{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.txt{
+    width: 210px;
+}
 
 
