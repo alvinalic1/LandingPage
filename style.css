@@ -66,6 +66,7 @@ img:not(.first){
     font-size: 18px;
     color: #e5e7eb;
     margin-top: 5px;
+    width: 500px;
 }
 
 button{
@@ -130,6 +131,7 @@ button{
 .author{
     align-self: center;
     font-size: 28px;
+    
 }
 
 
@@ -138,17 +140,25 @@ button{
     display: flex;
     background-color: #3882f6;
     color: white;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    border-radius: 8px;
+    padding: 20px;
 }
 
-.action{
-    display: flex;
-    background-color: #1F2937;
-    flex-direction: column;
+.one{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+.two{
+    margin-top: 6px;
 }
 
-.b{
-    background-color: aqua;
+
+.lb{
+    border-color: white;
 }
