@@ -50,6 +50,7 @@ img:not(.first){
     flex-wrap: wrap;
     padding-left: 55px;
     padding-right: 50px;
+    padding-bottom: 60px;
 }
 
 #title{
@@ -88,6 +89,7 @@ button{
     justify-content: center;
     align-items: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -122,15 +124,31 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    /* padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    padding-right: 300px; */
-    padding: 80px;
-    
-    
-    
+    font-style: italic;
+    padding: 80px;  
 }
 .author{
-    align-self: center
+    align-self: center;
+    font-size: 28px;
+}
+
+
+
+.action-container{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.action{
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
+
+.b{
+    background-color: aqua;
 }
